@@ -1,0 +1,16 @@
+server:
+  port: 8089
+
+spring:
+  datasource:
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.1.10:3306/mybatis
+
+mybatis:
+  # 指定全局配置文件位置
+  #  config-location: classpath:mybatis/mybatis-config.xml
+  # 指定sql映射文件位置
+  mapper-locations: classpath:/mapper/*.xml
+

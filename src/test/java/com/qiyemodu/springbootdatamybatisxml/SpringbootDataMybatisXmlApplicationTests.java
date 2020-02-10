@@ -1,0 +1,14 @@
+package com.qiyemodu.springbootdatamybatisxml;
+
+
+import org.junit.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class SpringbootDataMybatisXmlApplicationTests {
+
+    @Test
+    void contextLoads() {
+    }
+
+}
